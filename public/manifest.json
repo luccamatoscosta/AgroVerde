@@ -1,0 +1,16 @@
+{
+  "name": "AgroVerde",
+  "short_name": "AgroVerde",
+  "description": "Agricultura sustentável e produtos orgânicos frescos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#173f2a",
+  "theme_color": "#2f6b3f",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
