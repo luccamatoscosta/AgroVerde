@@ -49,5 +49,5 @@ AgroVerde/
 - O favicon fica em `src/assets/icons` e também há uma cópia pública em `public/favicon.ico`.
 
 Criadores:
-Lucca Matos Costa
+Lucca Matos Costa e
 Lucas Gustavo Totarreli Amado
