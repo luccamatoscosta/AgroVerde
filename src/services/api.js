@@ -1,1 +1,0 @@
-export const contactEndpoint = "https://formsubmit.co/contato@agroverde.com.br";

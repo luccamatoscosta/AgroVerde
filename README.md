@@ -1,6 +1,6 @@
 # AgroVerde
 
-Site institucional da AgroVerde feito com HTML, CSS e JavaScript, organizado em uma estrutura profissional de projeto.
+Site institucional da AgroVerde feito com HTML e CSS, organizado com os estilos dentro da pasta de cada página.
 
 ## Estrutura
 
@@ -18,44 +18,21 @@ AgroVerde/
       logos/
       fonts/
 
-    styles/
-      reset.css
-      variables.css
-      global.css
-
-    components/
-      header.js
-      navbar.js
-      banner.js
-      card.js
-      footer.js
-
-    services/
-      api.js
-
-    utils/
-      helpers.js
-
     pages/
       home/
         home.css
-        home.js
       about/
         about.html
         about.css
-        about.js
       contact/
         contact.html
         contact.css
-        contact.js
       services/
         services.html
         services.css
-        services.js
       products/
         products.html
         products.css
-        products.js
 
   index.html
   package.json
@@ -63,15 +40,11 @@ AgroVerde/
   vite.config.js
 ```
 
-## Como abrir
-
-Abra `index.html` no navegador ou use o servidor local do Vite.
-
 ## Como funciona
 
 - `index.html` é a página inicial.
 - As páginas internas ficam em `src/pages`.
-- Os estilos globais ficam em `src/styles`.
-- Scripts reutilizáveis ficam em `src/components`.
-- Imagens, ícones, logos e fontes ficam em `src/assets`.
-- Arquivos públicos do navegador ficam em `public`.
+- Cada página tem seu próprio arquivo CSS dentro da própria pasta.
+- As imagens ficam em `src/assets/images`.
+- O favicon fica em `src/assets/icons` e também há uma cópia pública em `public/favicon.ico`.
+- O projeto não depende de JavaScript para a navegação.
