@@ -47,4 +47,3 @@ AgroVerde/
 - Cada página tem seu próprio arquivo CSS dentro da própria pasta.
 - As imagens ficam em `src/assets/images`.
 - O favicon fica em `src/assets/icons` e também há uma cópia pública em `public/favicon.ico`.
-- O projeto não depende de JavaScript para a navegação.
